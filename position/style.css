@@ -1,0 +1,210 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.first_day_out{
+    display: flex;
+    top: 130px;
+    height: 700px;
+    margin: 10%;
+    background-color: white;
+    border: dotted;
+}
+
+.redbox{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 150px;
+    width: 160px;
+    color: red;
+    border: solid;
+}
+
+.bluebox{
+    display: flex;
+    position: relative;
+    top: 300px;
+    left: 125px;
+    height: 150px;
+    width: 160px;
+    color: blue;
+    border: solid;
+}
+
+.greenbox{
+    display: flex;
+    position: relative;
+    top: 500px;
+    left: 150px;
+    height: 150px;
+    width: 160px;
+    color: green;
+    border: solid;
+}
+
+.second{
+    display: flex;
+    top: 130px;
+    height: 500px;
+    margin: 10%;
+    background-color: white;
+    border: dotted;
+}
+
+.redbox1{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 150px;
+    width: 160px;
+    background-color: red;
+}
+
+.bluebox1{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    height: 150px;
+    width: 160px;
+    background-color: blue;
+}
+
+.greenbox1{
+    display: flex;
+    position: relative;
+    top: 300px;
+    left: 0px;
+    height: 150px;
+    width: 160px;
+    background-color: green;
+}
+
+.third{
+    display: flex;
+    top: 130px;
+    height: 600px;
+    margin: 10%;
+    background-color: white;
+    border: dotted;
+}
+
+.redbox2{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 150px;
+    width: 160px;
+    background-color: red;
+}
+
+.bluebox2{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    top: 200px;
+    left: 50px;
+    height: 150px;
+    width: 160px;
+    background-color: blue;
+}
+
+.greenbox2{
+    display: flex;
+    position: relative;
+    top: 300px;
+    left: 0px;
+    height: 150px;
+    width: 160px;
+    background-color: green;
+}
+
+.one_family{
+    display: flex;
+    position: relative;
+    top: 130px;
+    height: 850px;
+    width: 1080px;
+    margin: 10%;
+    background-color: white;
+    border: dotted;
+}
+
+.two_family{
+    display: flex;
+    position: relative;
+    width: 920px;
+    height: 800px;
+    border: solid;
+    border-color: rgb(39, 228, 134);
+    background-color: rgb(39, 228, 134) ;
+    left: 75px;
+    top: 22px;
+}
+
+.cube1{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+
+.cube2{
+    display: flex;
+    position: relative;
+    top: 550px;
+    left: 420px;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+
+.fifth{
+    display: flex;
+    position: relative;
+    height: 500px;
+    margin: 25%;
+    top: 0px;
+    background-color: white;
+    border: dotted; 
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.blocktext{
+    display: flex;
+    position: relative;
+    height: -800px;
+    width: 1006px;
+    background-color: yellowgreen;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+
+.samtext{
+    display: flex;
+     position: relative;
+     border: solid;
+     border-color:yellowgreen ;
+     flex-direction: column;
+     width: 1000px;
+     top: 0px;
+}
+
+.GG{
+    display: flex;
+    position: relative;
+    top: 20px;
+}

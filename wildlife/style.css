@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    display: flex;
+    background: url(./asserts/phonk.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: space-between;
+    background-position: center;
+}
+
+.head{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    justify-content: space-around;
+    background-position: center;
+}
+
+.header__left{
+    width: 100%;
+    height: 50px;
+    max-width: 250px;
+    padding-top: 20px;
+}
+
+.menu__logo__left{
+    font-style: normal;
+    font-size: 32px;
+    font-weight: 400px;
+    font-family: Open Sans;
+    line-height: 60px;
+    text-align: left;
+}
+
+.logo__left{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textlogo{
+    color: whitesmoke;
+}
+
+.header__right{
+    width: 100%;
+    height: 60px;
+    max-width: 500px;
+    padding-top: 21px;
+}
+
+.info{
+    font-weight: 430px;
+    font-size: 23px;
+    font-family: Open Sans;
+    line-height: 50px;
+}
+
+.info__block{
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__block{
+    color: whitesmoke;
+}
+
+.sign{
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    justify-content: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.close{
+    position: absolute;
+    font-size: 0px;
+}
+
+.pupa{
+    padding-top: 21px;
+}
+
+.sign:hover{
+    background: #CD6326;
+    transition: 0.3s;
+}

@@ -12,6 +12,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     flex-direction: column;
+    align-items: center;
 }
 
 .header{
@@ -20,14 +21,16 @@ body{
     width: 100%;
     justify-content: space-between;
     background-position: center;
+    max-width: 1440px;
 }
 
 .head{
     display: flex;
     height: 800px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     background-position: center;
+    max-width: 1440px;
 }
 
 .header__left{
@@ -113,7 +116,7 @@ body{
 }
 
 .cube{
-    height: 90px;
+    height: 160px;
 }
 
 .survival{
@@ -162,3 +165,10 @@ body{
     font-size: 23px;
 }
 
+.donate:hover{
+    transform: scale(1.2,1.2);
+}
+
+.visual{
+    color: #CD6326;
+}

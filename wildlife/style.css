@@ -371,3 +371,32 @@ body{
     text-decoration: none;
     color: #F7f7f7;
 }
+
+.arrow__left:hover{
+    transform: rotate(10080deg);
+    transition: 1s;
+}
+
+.arrow__right:hover{
+    transform: rotate(10080deg);
+    transition: 1s;
+}
+
+.Deer:hover{
+    transform:scale(1.1, 1.1);
+    transition: 1s;
+}
+
+.Squirrel__block:hover{
+    transform:scale(1.1, 1.1);
+    transition: 1s;
+}
+
+.Bird_block:hover{
+    transform:scale(1.1, 1.1);
+    transition: 1s;
+}
+
+.Send:hover{
+        transform: scale(1.2,1.2);
+}
